@@ -40,9 +40,11 @@ h1 {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
+    max-width: 800px; /* Ensure the section does not become too wide */
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .section-content {
@@ -81,6 +83,7 @@ h1 {
 
 .section-image {
     width: 150px;
+    max-width: 100%;
     height: auto;
     margin-left: 20px;
 }
