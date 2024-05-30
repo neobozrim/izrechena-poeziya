@@ -67,6 +67,7 @@ h1 {
 
 .text-content {
     flex: 1;
+<<<<<<< HEAD
     margin-right: 10px; /* Bring text and image closer */
     display: flex;
     flex-direction: column;
@@ -76,6 +77,9 @@ h1 {
 .section:nth-of-type(2) .text-content {
     margin-right: 0;
     margin-left: 10px; /* Adjust margin for the reversed order */
+=======
+    margin-right: 20px;
+>>>>>>> 1b951fd41cdd6cadfcb93fe2b1946a5c8c1a659b
 }
 
 .title {
@@ -96,8 +100,12 @@ h1 {
 }
 
 .section-image {
+<<<<<<< HEAD
     width: 150px; /* Increase the size of the image */
     max-width: 100%;
+=======
+    width: 100px; /* Smaller size for the image */
+>>>>>>> 1b951fd41cdd6cadfcb93fe2b1946a5c8c1a659b
     height: auto;
 }
 
@@ -118,9 +126,12 @@ footer {
     .text-content {
         margin-right: 0;
     }
+<<<<<<< HEAD
     .section:nth-of-type(2) .text-content {
         margin-left: 0;
     }
+=======
+>>>>>>> 1b951fd41cdd6cadfcb93fe2b1946a5c8c1a659b
     .section-image-container {
         margin: 20px 0 0 0;
     }
